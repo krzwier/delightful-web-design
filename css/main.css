@@ -1,0 +1,99 @@
+/***** GLOBAL STYLES *****/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Alice', serif;
+    font-weight: bold;
+}
+
+/***** GRID *****/
+
+.full-width {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.half-width {
+    float: left;
+    width: 600px;
+}
+
+/***** HEADER *****/
+
+header {
+    background: url("../img/campbell-tulip-keyboard.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+#logo-navbar {
+    overflow: auto;
+}
+
+#logo-navbar img{
+    float: left;
+    height: 100px;
+}
+
+#title-nav {
+    float: left;
+}
+
+#title-nav h1{
+    font-size: 30px;
+    line-height: 30px;
+    color: #888C03;
+    padding-top: 35px;
+}
+
+
+nav {
+    padding: 0;
+}
+    
+nav ul li {
+    display: inline-block;
+}
+    
+nav ul li a {
+    color: #FC6583;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 30px;
+    padding: 10px 40px 0 0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+    
+
+header h2 { 
+    float: left;
+    font-size: 70px;
+    line-height: 70px;
+    padding-top: 175px;
+    padding-left: 100px;
+    color: #F2B705;
+}
+
+h2 span {
+    font-family: 'Princess Sofia', cursive;
+    color:#FC6583;
+    line-height: 70px;
+    font-size: 80px;
+}
+
+
+/***** PORTFOLIO *****/
+
+#portfolio h3 {
+    color: #FC6583;
+    text-align: center;
+    padding: 50px 0;
+    font-size: 30px;
+
+}
+
