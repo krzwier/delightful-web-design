@@ -5,7 +5,7 @@ body {
     color: #404040;
 }
 
-h1, h2, h4 {
+h1, h2, h3, h4 {
     font-family: 'Alice', serif;
     font-weight: bold;
 }
@@ -48,8 +48,7 @@ header {
 #title-nav h1{
     font-size: 30px;
     line-height: 30px;
-    color: #888C03;
-    /*padding-top: 35px;*/
+    color: #799633;
 }
 
 
@@ -73,10 +72,9 @@ nav ul li a {
     
 
 header h2 { 
-    float: left;
     font-size: 70px;
     line-height: 70px;
-    padding-top: 175px;
+    padding-top: 200px;
     padding-left: 25px;
     color: #F2B705;
 }
@@ -90,25 +88,34 @@ h2 span {
 
 
 /***** PORTFOLIO *****/
+#portfolio {
+    overflow: auto;
+}
 
 #portfolio h3 {
     text-align: center;
     padding: 50px 0;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
-    text-transform: uppercase;
+
 }
 
 .article-left {
     float: left;
-    width: 550px;
-    padding-right: 50px;
+    width: 370px;
+    padding-right: 30px;
+}
+
+.article-center {
+    float: left;
+    width: 370px;
+    padding: 0 15px;
 }
 
 .article-right {
     float: left;
-    width: 550px;
-    padding-left: 50px;
+    width: 370px;
+    padding-left: 30px;
 }
 
 #rogue-pickings {
@@ -120,16 +127,40 @@ h2 span {
 }
 
 #portfolio h4 {
-    padding: 10px 0;
+    padding: 10px 25px;
     font-weight: bold;
     font-size: 30px;
+    text-align: center;
+
 }
 
+/*
+.article-left h4 {
+    color: #FC6583;
+}
+
+.article-center h4 {
+    color: #F2B705;;
+}
+
+.article-right h4 {
+    color: #799633;
+}
+*/
+
 #portfolio h5 {
+    padding: 0 25px;
     font-size: 20px;
+    text-align: center;
 }
 
 #portfolio p {
-    padding: 10px 0;
+    padding: 10px 25px 50px 25px;
     font-size: 18px;
+    text-align: center;
+}
+
+/***** ABOUT *****/
+#about {
+    background-image: linear-gradient(to bottom right, #F4F4F4, #D7D5D4);
 }
