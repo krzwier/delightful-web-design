@@ -2,9 +2,10 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    color: #404040;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h4 {
     font-family: 'Alice', serif;
     font-weight: bold;
 }
@@ -41,13 +42,14 @@ header {
 
 #title-nav {
     float: left;
+    padding: 25px 0 15px 5px;
 }
 
 #title-nav h1{
     font-size: 30px;
     line-height: 30px;
     color: #888C03;
-    padding-top: 35px;
+    /*padding-top: 35px;*/
 }
 
 
@@ -75,7 +77,7 @@ header h2 {
     font-size: 70px;
     line-height: 70px;
     padding-top: 175px;
-    padding-left: 100px;
+    padding-left: 25px;
     color: #F2B705;
 }
 
@@ -90,10 +92,44 @@ h2 span {
 /***** PORTFOLIO *****/
 
 #portfolio h3 {
-    color: #FC6583;
     text-align: center;
     padding: 50px 0;
-    font-size: 30px;
-
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
+.article-left {
+    float: left;
+    width: 550px;
+    padding-right: 50px;
+}
+
+.article-right {
+    float: left;
+    width: 550px;
+    padding-left: 50px;
+}
+
+#rogue-pickings {
+    overflow: auto;
+}
+
+#portfolio img {
+    width: 100%;
+}
+
+#portfolio h4 {
+    padding: 10px 0;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#portfolio h5 {
+    font-size: 20px;
+}
+
+#portfolio p {
+    padding: 10px 0;
+    font-size: 18px;
+}
