@@ -100,21 +100,21 @@ h3 {
 
 }
 
-.article-left {
+.article-left, .article-center, .article-right {
     float: left;
     width: 370px;
+    text-align: center;
+}
+
+.article-left {
     padding-right: 30px;
 }
 
 .article-center {
-    float: left;
-    width: 370px;
     padding: 0 15px;
 }
 
 .article-right {
-    float: left;
-    width: 370px;
     padding-left: 30px;
 }
 
@@ -126,24 +126,20 @@ h3 {
     width: 100%;
 }
 
-#portfolio h4 {
+h4 {
     padding: 20px 25px;
     font-weight: bold;
     font-size: 30px;
-    text-align: center;
-
 }
 
 #portfolio h5 {
     padding: 0 25px;
     font-size: 20px;
-    text-align: center;
 }
 
 #portfolio p {
     padding: 20px 25px 50px 25px;
     font-size: 18px;
-    text-align: center;
     line-height: 30px;
 }
 
