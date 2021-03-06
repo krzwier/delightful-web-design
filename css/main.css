@@ -10,6 +10,10 @@ h1, h2, h3, h4 {
     font-weight: bold;
 }
 
+a {
+    color:#FC6583;
+}
+
 /***** GRID *****/
 
 .full-width {
@@ -160,7 +164,6 @@ h4 {
 }
 
 #central-text p{
-    color: #404040;
     text-align: center;
     font-size: 18px;
     line-height: 30px;
@@ -181,12 +184,37 @@ h4 {
     color:#FC6583;
 }
 
-#about a {
-    color:#FC6583;
-}
+
 
 /***** CONTACT *****/
 #contact {
     overflow: auto;
+    padding: 0 0 100px 0;
 }
+
+#contact h4 {
+    font-size: 25px;
+}
+
+#contact p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+#contact ul li{
+display: inline-block;
+}
+
+/***** FOOTER *****/
+
+footer {
+    background-image: linear-gradient(to bottom right, #F4F4F4, #D7D5D4);
+    overflow: auto;
+    padding: 25px 0;
+}
+
+h6 {
+    text-align: center;
+}
+
 
