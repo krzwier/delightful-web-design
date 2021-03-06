@@ -92,7 +92,7 @@ h2 span {
     overflow: auto;
 }
 
-#portfolio h3 {
+h3 {
     text-align: center;
     padding: 50px 0;
     font-size: 30px;
@@ -127,26 +127,12 @@ h2 span {
 }
 
 #portfolio h4 {
-    padding: 10px 25px;
+    padding: 20px 25px;
     font-weight: bold;
     font-size: 30px;
     text-align: center;
 
 }
-
-/*
-.article-left h4 {
-    color: #FC6583;
-}
-
-.article-center h4 {
-    color: #F2B705;;
-}
-
-.article-right h4 {
-    color: #799633;
-}
-*/
 
 #portfolio h5 {
     padding: 0 25px;
@@ -155,12 +141,56 @@ h2 span {
 }
 
 #portfolio p {
-    padding: 10px 25px 50px 25px;
+    padding: 20px 25px 50px 25px;
     font-size: 18px;
     text-align: center;
+    line-height: 30px;
 }
 
 /***** ABOUT *****/
 #about {
-    background-image: linear-gradient(to bottom right, #F4F4F4, #D7D5D4);
+    background: url("../img/campbell-tulip-coffee-notebook.jpg");
+    background-size: cover;
+    padding: 25px 0;
+    /*background-position: center;*/
+    /*background-image: linear-gradient(to bottom right, #F4F4F4, #D7D5D4);*/
 }
+
+#central-text {
+    background-color: rgb(255, 255, 255, 0.4);
+    width: 500px;
+    margin: 0 350px;
+    border-radius: 50px;
+}
+
+#central-text p{
+    color: #404040;
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 25px;
+}
+
+
+#dwd {
+    font-family: 'Alice', serif;
+    font-weight: bold;
+    font-size: 21px;
+    color: #799633;
+}
+
+#delight {
+    font-family: 'Princess Sofia', cursive;
+    font-size: 30px;
+    color:#FC6583;
+}
+
+#about a {
+    color:#FC6583;
+}
+
+/***** CONTACT *****/
+#contact {
+    overflow: auto;
+}
+
