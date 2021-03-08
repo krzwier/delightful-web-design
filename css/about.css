@@ -126,6 +126,12 @@ nav ul li a {
     text-decoration: none;
 }
 
+.active a {
+    background:  #FC6583;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+
 /***** NAVIGATION ANIMATIONS *****/
 
 nav.stroke ul li a,
