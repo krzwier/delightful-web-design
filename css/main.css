@@ -1,8 +1,9 @@
 /***** GLOBAL STYLES *****/
 
 body {
-    font-family: 'Montserrat', sans-serif;
     color: #404040;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 
 h1, h2, h3, h4 {
@@ -10,8 +11,45 @@ h1, h2, h3, h4 {
     font-weight: bold;
 }
 
+h1, h2 {
+    text-align: left;
+}
+
+h1 {
+    color: #799633;
+    font-size: 40px;
+    line-height: 45px;
+}
+
+h2 { 
+    color: #F2B705;
+    font-size: 70px;
+    padding-left: 25px;
+    padding-top: 200px;
+}
+
+h3 {
+    font-size: 30px;
+    padding: 50px 0;
+}
+
+h4 {
+    font-size: 30px;
+    padding: 20px 25px;
+}
+
+h5 {
+    font-size: 20px;
+    padding: 0 25px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
 a {
-    color:#FC6583;
+    color:#799633;
 }
 
 /***** GRID *****/
@@ -26,38 +64,49 @@ a {
     width: 600px;
 }
 
+.third-left, .third-center, .third-right {
+    float: left;
+    width: 370px;
+}
+
+.third-left {
+    padding-right: 30px;
+}
+
+.third-center {
+    padding: 0 15px;
+}
+
+.third-right {
+    padding-left: 30px;
+}
+
 /***** HEADER *****/
 
 header {
     background: url("../img/campbell-tulip-keyboard.jpg");
-    background-size: cover;
     background-position: center;
-    height: 500px;
+    background-size: cover;
+    overflow: auto;
+    padding: 10px 0 35px 0;
 }
 
-#logo-navbar {
-    overflow: auto;
+header span {
+    color:#FC6583;
+    font-family: 'Princess Sofia', cursive;
+    font-size: 80px;
+    line-height: 70px;
 }
 
 #logo-navbar img{
     float: left;
-    height: 100px;
+    margin-top: 5px;
+    width: 100px;
 }
 
 #title-nav {
     float: left;
-    padding: 25px 0 15px 5px;
-}
-
-#title-nav h1{
-    font-size: 30px;
-    line-height: 30px;
-    color: #799633;
-}
-
-
-nav {
-    padding-top: 7px;
+    margin: 23px 0 0 10px;
 }
     
 nav ul li {
@@ -66,64 +115,40 @@ nav ul li {
     
 nav ul li a {
     color: #FC6583;
-    font-size: 18px;
-    /*font-weight: bold;*/
+    font-size: 20px;
     line-height: 30px;
-    padding-right: 43px;
+    padding: 0 25px;
+    position: relative;
     text-decoration: none;
-    /*text-transform: uppercase;*/
-
-}
-    
-
-header h2 { 
-    font-size: 70px;
-    line-height: 70px;
-    padding-top: 200px;
-    padding-left: 25px;
-    color: #F2B705;
 }
 
-h2 span {
-    font-family: 'Princess Sofia', cursive;
-    color:#FC6583;
-    line-height: 70px;
-    font-size: 80px;
+/***** NAVIGATION ANIMATIONS *****/
+
+nav.stroke ul li a,
+nav.stroke ul li a:after,
+nav.stroke ul li a:before {
+    transition: all .5s;
 }
 
+nav.stroke ul li a:after {
+    background: #FC6583;
+    content: '';
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+}
+
+nav.stroke ul li a:hover:after {
+    width: 80%;
+}
 
 /***** PORTFOLIO *****/
+
 #portfolio {
-    overflow: auto;
-}
-
-h3 {
-    text-align: center;
-    padding: 50px 0;
-    font-size: 30px;
-    font-weight: bold;
-
-}
-
-.article-left, .article-center, .article-right {
-    float: left;
-    width: 370px;
-    text-align: center;
-}
-
-.article-left {
-    padding-right: 30px;
-}
-
-.article-center {
-    padding: 0 15px;
-}
-
-.article-right {
-    padding-left: 30px;
-}
-
-#rogue-pickings {
     overflow: auto;
 }
 
@@ -131,67 +156,46 @@ h3 {
     width: 100%;
 }
 
-h4 {
-    padding: 20px 25px;
-    font-weight: bold;
-    font-size: 30px;
-}
-
-#portfolio h5 {
-    padding: 0 25px;
-    font-size: 20px;
-}
-
 #portfolio p {
     padding: 20px 25px 50px 25px;
-    font-size: 18px;
-    line-height: 30px;
 }
 
 /***** ABOUT *****/
+
 #about {
     background: url("../img/campbell-tulip-coffee-notebook.jpg");
     background-size: cover;
     padding: 25px 0;
-    /*background-position: center;*/
-    /*background-image: linear-gradient(to bottom right, #F4F4F4, #D7D5D4);*/
 }
+
+/***** SEMI-TRANSPARENT BOX *****/
 
 #central-text {
     background-color: rgb(255, 255, 255, 0.4);
-    width: 500px;
-    margin: 0 350px;
     border-radius: 50px;
+    margin: 0 350px;
+    padding: 0 30px;
+    width: 500px;
 }
-
-#central-text p{
-    text-align: center;
-    font-size: 18px;
-    line-height: 30px;
-    padding: 0 25px;
-}
-
 
 #dwd {
-    font-family: 'Alice', serif;
-    font-weight: bold;
-    font-size: 21px;
     color: #799633;
+    font-family: 'Alice', serif;
+    font-size: 22px;
+    font-weight: bold;
 }
 
 #delight {
+    color:#FC6583;
     font-family: 'Princess Sofia', cursive;
     font-size: 30px;
-    color:#FC6583;
 }
 
-
-
 /***** CONTACT *****/
+
 #contact {
     overflow: auto;
     padding: 0 0 100px 0;
-    text-align: center;
 }
 
 #contact a {
@@ -199,26 +203,32 @@ h4 {
 }
 
 #contact h4 {
-    /*text-align: center;*/
     font-size: 25px;
 }
 
 #contact p {
-    /*text-align: center;*/
     font-size: 18px;
     line-height: 30px;
 }
 
-/*
-#contact ul {
-    text-align: center;
-}*/
-
 #contact ul li{
-    /*text-align: center;*/
-    font-size: 50px;
     display: inline-block;
+    font-size: 50px;
     padding: 30px 10px;
+}
+
+.box-left, .box-right {
+    background-image: linear-gradient(to bottom right, #F4F4F4, #D7D5D4);
+    border-radius: 50px;
+    height: 250px;
+}
+
+.box-left {
+    margin: 0 50px 0 150px;
+}
+
+.box-right {
+    margin: 0 150px 0 50px;
 }
 
 /***** FOOTER *****/
@@ -228,14 +238,4 @@ footer {
     overflow: auto;
     padding: 25px 0;
 }
-
-footer a {
-    color:#799633;
-}
-
-p {
-    line-height: 30px;
-    text-align: center;
-}
-
 
