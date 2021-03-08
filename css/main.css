@@ -84,7 +84,7 @@ a {
 /***** HEADER *****/
 
 header {
-    background: url("../img/campbell-tulip-keyboard.jpg");
+    background: url("../img/campbell-tulip-keyboard.png");
     background-position: center;
     background-size: cover;
     overflow: auto;
@@ -163,7 +163,7 @@ nav.stroke ul li a:hover:after {
 /***** ABOUT *****/
 
 #about {
-    background: url("../img/campbell-tulip-coffee-notebook.jpg");
+    background: url("../img/campbell-tulip-coffee-notebook.png");
     background-size: cover;
     padding: 25px 0;
 }
