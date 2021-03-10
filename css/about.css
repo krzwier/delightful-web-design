@@ -160,8 +160,12 @@ nav.stroke ul li a:hover:after {
 
 #meet-karen {
     overflow: auto;
+    text-align: left;
 }
 
+#meet-karen ul {
+    list-style-type: circle;
+}
 
 #portfolio p {
     padding: 20px 25px 50px 25px;
