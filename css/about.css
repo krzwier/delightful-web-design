@@ -211,7 +211,6 @@ nav.stroke ul li a:hover:after {
     padding-right: 0;
     background: #FC889F;
     width: 575px;
-    display: flex;
 }
 
 #academic-text {
@@ -222,12 +221,16 @@ nav.stroke ul li a:hover:after {
 }
 
 #cv {
-    font-size: 50px;
-    line-height: 50px;
     width: 100px;
     text-align: center;
     vertical-align: middle;
     
+}
+
+#cv-icon {
+    font-size: 50px;
+    line-height: 50px;
+
 }
 
 
@@ -270,13 +273,13 @@ nav.stroke ul li a:hover:after {
     color:#799633;
 }
 
-table {
+#contact table {
     border-collapse: separate;
     border-spacing: 100px 0;
     width: 100%;
 }
 
-td {
+#contact td {
     background-color: rgb(255, 255, 255, 0.7);
     border-radius: 50px;
     width: 50%;
