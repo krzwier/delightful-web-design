@@ -30,7 +30,7 @@ h2 {
 
 h3 {
     font-size: 30px;
-    padding: 50px 0;
+    padding-bottom: 50px;
 }
 
 h4 {
@@ -154,6 +154,7 @@ nav.stroke ul li a:hover:after {
 
 #portfolio {
     overflow: auto;
+    margin: 50px 0;
 }
 
 #portfolio img {
@@ -168,7 +169,7 @@ nav.stroke ul li a:hover:after {
 #about {
     background: url("../img/campbell-tulip-coffee-notebook.png");
     background-size: cover;
-    padding: 25px 0;
+    padding: 50px 0 100px 0;
 }
 
 /***** SEMI-TRANSPARENT BOX *****/
@@ -176,9 +177,13 @@ nav.stroke ul li a:hover:after {
 #central-text {
     background-color: rgb(255, 255, 255, 0.7);
     border-radius: 50px;
-    margin: 0 350px;
-    padding: 0 30px;
+    margin: 0 320px;
+    padding: 50px 30px 100px 30px;
     width: 500px;
+}
+
+#central-text h3 {
+    padding: 0 0 50px 0;
 }
 
 #dwd {
@@ -197,16 +202,28 @@ nav.stroke ul li a:hover:after {
 /***** CONTACT *****/
 
 #contact {
+    
+    padding: 50px 0;
     overflow: auto;
-    padding: 0 0 100px 0;
+    text-align: center;
 }
 
 #contact a {
     color:#799633;
 }
 
-#contact h4 {
-    font-size: 25px;
+table {
+    border-collapse: separate;
+    border-spacing: 100px 0;
+    width: 100%;
+    text-align: center;
+}
+
+td {
+    background-image: linear-gradient(to bottom right, #F4F4F4, #D7D5D4);
+    border-radius: 50px;
+    width: 50%;
+    padding: 50px 25px;
 }
 
 #contact p {
@@ -220,19 +237,6 @@ nav.stroke ul li a:hover:after {
     padding: 30px 10px;
 }
 
-.box-left, .box-right {
-    background-image: linear-gradient(to bottom right, #F4F4F4, #D7D5D4);
-    border-radius: 50px;
-    height: 250px;
-}
-
-.box-left {
-    margin: 0 50px 0 150px;
-}
-
-.box-right {
-    margin: 0 150px 0 50px;
-}
 
 /***** FOOTER *****/
 
