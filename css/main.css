@@ -174,7 +174,7 @@ nav.stroke ul li a:hover:after {
 /***** SEMI-TRANSPARENT BOX *****/
 
 #central-text {
-    background-color: rgb(255, 255, 255, 0.4);
+    background-color: rgb(255, 255, 255, 0.7);
     border-radius: 50px;
     margin: 0 350px;
     padding: 0 30px;

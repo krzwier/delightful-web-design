@@ -6,25 +6,36 @@ body {
     text-align: center;
 }
 
+h1, h2, h3, h4 {
+    font-weight: bold;
+    font-family: 'Alice', serif;
+}
+
 h1, h2 {
     text-align: left;
-    font-weight: bold;
 }
 
 h1 {
-    text-align: right;
-    font-family: 'Alice', serif;
     color: #799633;
     font-size: 40px;
     line-height: 45px;
 }
 
 h2 { 
-    color: #F2B705;
+    
     font-size: 30px;
     padding-bottom: 10px;
 }
 
+h3 {
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+
+h4 {
+    font-size: 25px;
+    padding-bottom: 25px;
+}
 
 a {
     color:#799633;
@@ -236,8 +247,6 @@ nav.stroke ul li a:hover:after {
     position: relative;
     z-index: 3;
     float: right;
-
-    
 }
 
 #chickens {
@@ -247,54 +256,31 @@ nav.stroke ul li a:hover:after {
     clear: both;
 }
 
-
-
-
-/***** ABOUT *****/
-#about {
-    background: url("../img/campbell-tulip-coffee-notebook.png");
-    background-size: cover;
-    padding: 25px 0;
-}
-
-/***** SEMI-TRANSPARENT BOX *****/
-
-#central-text {
-    background-color: rgb(255, 255, 255, 0.4);
-    border-radius: 50px;
-    margin: 0 350px;
-    padding: 0 30px;
-    width: 500px;
-}
-
-#dwd {
-    color: #799633;
-    font-family: 'Alice', serif;
-    font-size: 22px;
-    font-weight: bold;
-}
-
-#delight {
-    color:#FC6583;
-    font-family: 'Princess Sofia', cursive;
-    font-size: 30px;
-}
-
 /***** CONTACT *****/
 
 #contact {
     background: url("../img/campbell-tulip-coffee-notebook.png");
     background-size: cover;
-    padding: 25px 0;
+    padding: 50px 0;
     overflow: auto;
+    text-align: center;
 }
 
 #contact a {
     color:#799633;
 }
 
-#contact h4 {
-    font-size: 25px;
+table {
+    border-collapse: separate;
+    border-spacing: 100px 0;
+    width: 100%;
+}
+
+td {
+    background-color: rgb(255, 255, 255, 0.7);
+    border-radius: 50px;
+    width: 50%;
+    padding: 50px 25px;
 }
 
 #contact p {
@@ -308,19 +294,6 @@ nav.stroke ul li a:hover:after {
     padding: 30px 10px;
 }
 
-.box-left, .box-right {
-    background-color: rgb(255, 255, 255, 0.7);
-    border-radius: 50px;
-    height: 250px;
-}
-
-.box-left {
-    margin: 0 50px 0 150px;
-}
-
-.box-right {
-    margin: 0 150px 0 50px;
-}
 
 /***** FOOTER *****/
 
@@ -330,3 +303,7 @@ footer {
     padding: 25px 0;
 }
 
+footer p {
+        font-size: 18px;
+        line-height: 30px;
+}
