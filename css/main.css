@@ -212,14 +212,14 @@ nav.stroke ul li a:hover:after {
     color:#799633;
 }
 
-table {
+#contact table {
     border-collapse: separate;
     border-spacing: 100px 0;
     width: 100%;
     text-align: center;
 }
 
-td {
+#contact td {
     background-image: linear-gradient(to bottom right, #F4F4F4, #D7D5D4);
     border-radius: 50px;
     width: 50%;

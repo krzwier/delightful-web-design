@@ -7,9 +7,9 @@ body {
 }
 
 h1, h2, h3, h4 {
-    font-weight: bold;
     font-family: 'Alice', serif;
-}
+    font-weight: bold;
+}   
 
 h1, h2 {
     text-align: left;
@@ -22,7 +22,6 @@ h1 {
 }
 
 h2 { 
-    
     font-size: 30px;
     padding-bottom: 10px;
 }
@@ -45,30 +44,8 @@ a {
 
 .full-width {
     margin: 0 auto;
-    width: 1200px;
     overflow: auto;
-}
-
-.half-width {
-    float: left;
-    width: 600px;
-}
-
-.third-left, .third-center, .third-right {
-    float: left;
-    width: 370px;
-}
-
-.third-left {
-    padding-right: 30px;
-}
-
-.third-center {
-    padding: 0 15px;
-}
-
-.third-right {
-    padding-left: 30px;
+    width: 1200px;
 }
 
 /***** HEADER *****/
@@ -150,10 +127,10 @@ nav.stroke ul li a:hover:after {
 /***** MEET KAREN *****/
 
 #meet-karen {
-    text-align: left;
-    padding: 50px 0;
     font-size: 16px;
     line-height: 20px;
+    text-align: left;
+    padding: 50px 0;
 }
 
 #meet-karen span {
@@ -161,22 +138,20 @@ nav.stroke ul li a:hover:after {
 }
 
 #selfie {
-    width: 40%;
-    shape-outside: polygon(55% 0%, 37% 25%, 40% 42%, 15% 47%, 5% 55%, 0% 65%, 5% 90%, 100% 90%, 100% 0%);
-    /*clip-path: polygon(55% 0%, 37% 25%, 40% 42%, 15% 47%, 5% 55%, 0% 65%, 5% 90%, 100% 90%, 100% 0%);*/
-    /*padding-bottom: -100px;*/
     /*background: red;*/
-    position: relative;
+    /*clip-path: polygon(55% 0%, 37% 25%, 40% 42%, 15% 47%, 5% 55%, 0% 65%, 5% 90%, 100% 90%, 100% 0%);*/
     float: right;
+    position: relative;
+    shape-outside: polygon(55% 0%, 37% 25%, 40% 42%, 15% 47%, 5% 55%, 0% 65%, 5% 90%, 100% 90%, 100% 0%);
     top: 35px;
+    width: 40%;
     z-index: 2;
 }
 
 .bubbles {
-    padding: 25px 50px;
-    /*background-image: linear-gradient(to bottom right, #F4F4F4, #D7D5D4);*/
     border-radius: 25px;
     margin-bottom: 25px;
+    padding: 25px 50px;
     position: relative;
     z-index: 1;
 
@@ -187,9 +162,9 @@ nav.stroke ul li a:hover:after {
 }
 
 #intro {
+    background-image: linear-gradient(to bottom right, #F4F4F4, #D7D5D4);
     margin-left: 175px;
     width: 600px;
-    background-image: linear-gradient(to bottom right, #F4F4F4, #D7D5D4);
 }
 
 #intro span {
@@ -198,18 +173,16 @@ nav.stroke ul li a:hover:after {
 }
 
 #tech {
-    margin-left: 250px;
     background: #F2B705;
+    margin-left: 250px;
     padding-right: 295px;
-    
 }
 
-
 #academic {
-    overflow: auto;
-    margin-left: 75px;
-    padding-right: 0;
     background: #FC889F;
+    margin-left: 75px;
+    overflow: auto;
+    padding-right: 0;
     width: 575px;
 }
 
@@ -217,46 +190,42 @@ nav.stroke ul li a:hover:after {
     border-right:1px solid #404040;
     padding-right: 25px;
     width: 424px;
-
 }
 
 #cv {
-    width: 100px;
     text-align: center;
     vertical-align: middle;
-    
+    width: 100px;
 }
 
 #cv-icon {
     font-size: 50px;
     line-height: 50px;
-
 }
 
 
 #building {
     background: #799633;
-    width: 700px;
-    position: relative;
     float: right;
+    position: relative;
+    width: 700px;
     z-index: 3;
-
 }
 
 #family {
     background-image: linear-gradient(to bottom right, #F4F4F4, #D7D5D4);
-    width: 165px;
+    float: right;
     margin-right: 25px;
     position: relative;
+    width: 165px;
     z-index: 3;
-    float: right;
 }
 
 #chickens {
     background: #F2B705;
+    clear: both;
     margin-left: 250px;
     width: 600px;
-    clear: both;
 }
 
 /***** CONTACT *****/
@@ -264,13 +233,9 @@ nav.stroke ul li a:hover:after {
 #contact {
     background: url("../img/campbell-tulip-coffee-notebook.png");
     background-size: cover;
-    padding: 50px 0;
     overflow: auto;
+    padding: 50px 0;
     text-align: center;
-}
-
-#contact a {
-    color:#799633;
 }
 
 #contact table {
@@ -282,8 +247,8 @@ nav.stroke ul li a:hover:after {
 #contact td {
     background-color: rgb(255, 255, 255, 0.7);
     border-radius: 50px;
-    width: 50%;
     padding: 50px 25px;
+    width: 50%;
 }
 
 #contact p {
@@ -296,7 +261,6 @@ nav.stroke ul li a:hover:after {
     font-size: 50px;
     padding: 30px 10px;
 }
-
 
 /***** FOOTER *****/
 
