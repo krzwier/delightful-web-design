@@ -140,7 +140,7 @@ nav.stroke ul li a:hover:after {
 #selfie {
     /*background: red;*/
     /*clip-path: polygon(55% 0%, 37% 25%, 40% 42%, 15% 47%, 5% 55%, 0% 65%, 5% 90%, 100% 90%, 100% 0%);*/
-    float: right;
+    float: left;
     position: relative;
     shape-outside: polygon(55% 0%, 37% 25%, 40% 42%, 15% 47%, 5% 55%, 0% 65%, 5% 90%, 100% 90%, 100% 0%);
     top: 35px;
